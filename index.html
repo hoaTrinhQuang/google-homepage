@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>google-homepage</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <style media="screen">
+      html {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body class="bg-white flex flex-col justify-between h-full">
+    <header class="container mx-auto my-4 px-0">
+        <nav class="flex justify-end text-center font-thin text-xs">
+          <div>
+            <a href="https://mail.google.com/mail/?tab=wm" class="pl-4 hover:underline">Gmail</a>
+            <a href="https://www.google.com.vn/imgph?hl=vi&tab=wi"class="pl-4 hover:underline">Hinh anh</a>
+            <a href="#"class="pl-4">logo1</a>
+            <a href="#"class="pl-4 mr-0">logo2</a>
+            </div>
+      </nav>
+      </header>
+      <main class="container mx-auto mt-16 flex-grow text-center">
+      <div class="container mx-auto">
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width=272 height= 92 class="mb-10 mx-auto" alt="Google logo">
+        <form name="search" class="flex flex-col mx-auto w-5/6 sm:w-2/3 md:2/3 lg:w-1/3 xl:w-2/5 ">
+          <div class="hover:shadow-outline flex-grow flex justify-between mb-4 border border-solid border-gray-300 rounded-l-full rounded-r-full p-3">
+          <input type="text" id="data" name="data" class="flex-1">
+          <img src="https://www.gstatic.com/inputtools/images/tia.png" alt="keyboard">
+            </div>
+          <div class="flex-none">
+          <button type="button" name="search" class="hover:bg-gray-300 hover:text-black text-gray-600 bg-gray-100 p-2 rounded-lg">Tim voi google</button>
+          <button type="button" name="firstpage" class=" hover:bg-gray-300 hover:text-black text-gray-600 bg-gray-100 p-2 rounded-lg">Xem trang dau tien tim duoc</button>
+            </div>
+          </form>
+          <div>
+            <p>
+              google co cac thu tieng:
+              </p>
+
+            </div>
+        </div>
+
+      </main>
+        <footer class="container mx-auto">
+          <div>
+            VietNam
+            </div>
+            <nav class="container flex flex-1 justify-between px-0">
+              <div>
+                <a href="#" class="pr-2 hover:underline">Quang cao</a>
+                <a href="#" class="pr-2 hover:underline">Doanh nghiep</a>
+                <a href="#" class="pr-2 hover:underline">Gioi thieu</a>
+                </div>
+                <div class="">
+                  <a href="#" class="pl-2 hover:underline">Bao mat</a>
+                  <a href="#" class="pl-2 hover:underline">Dieu khoan</a>
+                  <a href="#" class="pl-2 hover:underline">Cai dat</a>
+                </div>
+            </nav>
+        </footer>
+  </body>
+</html>
